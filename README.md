@@ -20,7 +20,7 @@
 - 💼 Building production-ready **cross-platform mobile apps** with Flutter & Dart
 - 🤖 Passionate about **AI/ML** and integrating intelligent features into apps
 - 🌦️ Creator of **[weather-forecast-pk](https://github.com/Anees040/weather-forecast-pk)** — real-time weather app for major cities of Pakistan
-- 📚 Creator of **[EduVerse](https://github.com/Anees040/EduVerse)** — Modern Flutter + Firebase LMS for students, teachers, and admins with assessments, progress tracking, and real-time collaboration.
+- 📚 Creator of **[EduVerse](https://github.com/Anees040/EduVerse)** — Modern Flutter + Firebase LMS
 - ⚡ Fun fact: I love clean UI design as much as clean code!
 - 📬 Open to **internships & junior developer roles**
 
@@ -61,15 +61,7 @@
 | Project | Description | Tech |
 |---|---|---|
 | 🌦️ [weather-forecast-pk](https://github.com/Anees040/weather-forecast-pk) | Real-time weather app for Pakistan cities | Flutter, Dart, OpenWeatherMap API |
-| 📚 [EduVerse](https://github.com/Anees040/EduVerse) | Modern Flutter + Firebase LMS for students, teachers, and admins with assessments, progress tracking, and real-time collaboration. | Flutter, Dart, Firebase |
-
----
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anees040&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
+| 📚 [EduVerse](https://github.com/Anees040/EduVerse) | Modern Flutter + Firebase LMS for students, teachers, and admins. | Flutter, Dart, Firebase |
 
 ---
 
