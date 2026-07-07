@@ -1,0 +1,44 @@
+name: Update Stats Cards
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+
+      - name: Fetch GitHub Stats card
+        run: |
+          curl -sf "https://github-readme-stats.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" -o stats.svg.new \
+            && mv stats.svg.new stats.svg \
+            || echo "Stats fetch failed — keeping previous version"
+
+      - name: Fetch Top Languages card
+        run: |
+          curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o top-langs.svg.new \
+            && mv top-langs.svg.new top-langs.svg \
+            || echo "Top-langs fetch failed — keeping previous version"
+
+      - name: Fetch Streak Stats card
+        run: |
+          curl -sf "https://streak-stats.demolab.com?user=Anees040&theme=tokyonight&hide_border=true" -o streak.svg.new \
+            && mv streak.svg.new streak.svg \
+            || echo "Streak fetch failed — keeping previous version"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.svg top-langs.svg streak.svg
+          git diff --staged --quiet || git commit -m "Auto-update stats cards"
+          git push
