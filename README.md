@@ -15,7 +15,7 @@
 <h2>&#128104;&#8205;&#128187; About Me</h2>
 
 <table>
-<tr><td>&#127891;</td><td><b>Education</b></td><td>BS Software Engineering &mdash; COMSATS University Islamabad (expected Dec 2026) &middot; CGPA 3.29 / 4.0</td></tr>
+<tr><td>&#127891;</td><td><b>Education</b></td><td>BS Software Engineering &mdash; COMSATS University Islamabad (expected Dec 2026) &middot; CGPA 3.23 / 4.0</td></tr>
 <tr><td>&#128205;</td><td><b>Location</b></td><td>Islamabad, Pakistan</td></tr>
 <tr><td>&#128241;</td><td><b>Focus</b></td><td>Flutter &middot; Dart &middot; AI-powered mobile apps</td></tr>
 <tr><td>&#128421;&#65039;</td><td><b>Backend</b></td><td>Node.js &middot; Express &middot; PostgreSQL &middot; Firebase</td></tr>
@@ -72,9 +72,9 @@
 <h2>&#128202; GitHub Stats</h2>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="41%" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/Anees040/Anees040/output/stats.svg" width="48%" alt="GitHub stats" /> <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/top-langs.svg" width="41%" alt="Top languages" />
 <br/>
-<img src="https://streak-stats.demolab.com?user=Anees040&theme=tokyonight&hide_border=true" width="60%" alt="GitHub streak" />
+<img src="https://raw.githubusercontent.com/Anees040/Anees040/output/streak.svg" width="60%" alt="GitHub streak" />
 <br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anees040&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Contribution graph" />
 </p>
