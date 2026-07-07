@@ -1,9 +1,12 @@
 name: Update Stats Cards
 
 on:
+  push:
+    paths:
+      - '.github/workflows/update-stats-cards.yml'  # runs once immediately when you add this file
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    - cron: '0 */6 * * *'   # every 6 hours after that
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab anytime
 
 permissions:
   contents: write
@@ -39,6 +42,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats.svg top-langs.svg streak.svg
+          for f in stats.svg top-langs.svg streak.svg; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            else
+              echo "$f was not fetched this run — skipping"
+            fi
+          done
           git diff --staged --quiet || git commit -m "Auto-update stats cards"
           git push
