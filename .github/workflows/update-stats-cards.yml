@@ -22,13 +22,13 @@ jobs:
 
       - name: Fetch GitHub Stats card
         run: |
-          curl -sf "https://github-readme-stats.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" -o stats.svg.new \
+          curl -sf "https://github-stats-extended.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" -o stats.svg.new \
             && mv stats.svg.new stats.svg \
             || echo "Stats fetch failed — keeping previous version"
 
       - name: Fetch Top Languages card
         run: |
-          curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o top-langs.svg.new \
+          curl -sf "https://github-stats-extended.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o top-langs.svg.new \
             && mv top-langs.svg.new top-langs.svg \
             || echo "Top-langs fetch failed — keeping previous version"
 
