@@ -15,7 +15,7 @@
 <h2>&#128104;&#8205;&#128187; About Me</h2>
 
 <table>
-<tr><td>&#127891;</td><td><b>Education</b></td><td>BS Software Engineering &mdash; COMSATS University Islamabad (expected Dec 2026) &middot; CGPA 3.23 / 4.0</td></tr>
+<tr><td>&#127891;</td><td><b>Education</b></td><td>BS Software Engineering &mdash; COMSATS University Islamabad (expected Dec 2026) &middot; CGPA 3.29 / 4.0</td></tr>
 <tr><td>&#128205;</td><td><b>Location</b></td><td>Islamabad, Pakistan</td></tr>
 <tr><td>&#128241;</td><td><b>Focus</b></td><td>Flutter &middot; Dart &middot; AI-powered mobile apps</td></tr>
 <tr><td>&#128421;&#65039;</td><td><b>Backend</b></td><td>Node.js &middot; Express &middot; PostgreSQL &middot; Firebase</td></tr>
