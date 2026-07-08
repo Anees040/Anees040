@@ -47,7 +47,7 @@
 
 <table>
 <tr><th>Project</th><th>Description</th><th>Tech</th><th>Status</th></tr>
-<tr><td>&#127965;&#65039; <b>SportLynk</b></td><td>Full-stack indoor sports venue booking platform &mdash; court booking, tournaments, scheduling &amp; owner tools with AI chat. <i>(Final Year Project)</i></td><td>Flutter &middot; Node.js &middot; Express &middot; PostgreSQL &middot; AI</td><td>&#128679; In Development</td></tr>
+<tr><td>&#127965;&#65039; <a href="https://github.com/Anees040/SportLynk"><b>SportLynk</b></td><td>Full-stack indoor sports venue booking platform &mdash; court booking, tournaments, scheduling &amp; owner tools with AI chat. <i>(Final Year Project)</i></td><td>Flutter &middot; Node.js &middot; Express &middot; PostgreSQL &middot; AI</td><td>&#128679; In Development</td></tr>
 <tr><td>&#128218; <a href="https://github.com/Anees040/EduVerse"><b>EduVerse</b></a></td><td>Modern learning management app for students, teachers &amp; admins with real-time data and authentication.</td><td>Flutter &middot; Dart &middot; Firebase</td><td>&#9989; Completed</td></tr>
 </table>
 
