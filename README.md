@@ -1,7 +1,7 @@
 <!-- ANIMATED HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a6b,50:14b8a6,100:38bdf8&height=210&section=header&text=Muhammad%20Anees&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Flutter%20Developer%20%E2%80%A2%20Mobile%20App%20Developer%20%E2%80%A2%20AI%20Enthusiast&descSize=17&descAlignY=52" width="100%"/>
 
-<!-- TAGLINE + SOCIAL BADGES + PROFILE VIEWS (merged into one block to cut extra paragraph gaps) -->
+<!-- TAGLINE + SOCIAL BADGES + PROFILE VIEWS -->
 <p align="center">
 <a href="https://github.com/Anees040"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&width=620&lines=Flutter+%7C+Cross-Platform+Mobile+Developer;I+build+AI-powered+mobile+apps;Full-Stack%3A+Node.js+%2B+Express+%2B+PostgreSQL;Open+to+Internships+%26+Junior+Roles" alt="Typing animation" /></a>
 <br/>
@@ -18,13 +18,13 @@
 <tr><td>&#127891;</td><td><b>Education</b></td><td>BS Software Engineering &mdash; COMSATS University Islamabad (expected Dec 2026) &middot; CGPA 3.29 / 4.0</td></tr>
 <tr><td>&#128205;</td><td><b>Location</b></td><td>Islamabad, Pakistan</td></tr>
 <tr><td>&#128241;</td><td><b>Focus</b></td><td>Flutter &middot; Dart &middot; AI-powered mobile apps</td></tr>
-<tr><td>&#128421;&#65039;</td><td><b>Backend</b></td><td>Node.js &middot; Express &middot; PostgreSQL &middot; Firebase</td></tr>
-<tr><td>&#127959;&#65039;</td><td><b>Now building</b></td><td><b>SportLynk</b> &mdash; full-stack indoor sports venue booking platform <i>(Final Year Project)</i></td></tr>
+<tr><td>&#128421;&#65039;</td><td><b>Backend</b></td><td>Node.js &middot; Express &middot; PostgreSQL &middot; Firebase &middot; Supabase</td></tr>
+<tr><td>&#128640;</td><td><b>Recent work</b></td><td>Built three substantial Flutter projects during Summer 2026: FitPilot, Sukoon, and DevInterview</td></tr>
 <tr><td>&#128188;</td><td><b>Open to</b></td><td>Internships &amp; Junior Developer roles</td></tr>
 </table>
 
 <ul>
-<li>&#129302; Exploring <b>AI integration</b> in mobile apps &mdash; LLM APIs, OCR &amp; RAG chatbots</li>
+<li>&#129302; Exploring <b>AI integration</b> in mobile apps &mdash; LLM APIs, OCR, speech-to-text &amp; AI-assisted features</li>
 <li>&#128722; Founder of <b>Primify</b> &mdash; my own Shopify e-commerce store</li>
 <li>&#9889; Fun fact: I love <b>clean UI design</b> as much as clean code!</li>
 </ul>
@@ -43,28 +43,32 @@
 
 <h2>&#128640; Featured Projects</h2>
 
-<h3>&#127942; Flagship</h3>
+<h3>&#127942; Flagship Projects</h3>
 
 <table>
 <tr><th>Project</th><th>Description</th><th>Tech</th><th>Status</th></tr>
-<tr><td>&#127965;&#65039; <a href="https://github.com/Anees040/SportLynk"><b>SportLynk</b></td><td>Full-stack indoor sports venue booking platform &mdash; court booking, tournaments, scheduling &amp; owner tools with AI chat. <i>(Final Year Project)</i></td><td>Flutter &middot; Node.js &middot; Express &middot; PostgreSQL &middot; AI</td><td>&#128679; In Development</td></tr>
-<tr><td>&#128218; <a href="https://github.com/Anees040/EduVerse"><b>EduVerse</b></a></td><td>Modern learning management app for students, teachers &amp; admins with real-time data and authentication.</td><td>Flutter &middot; Dart &middot; Firebase</td><td>&#9989; Completed</td></tr>
+<tr><td>&#127947;&#65039; <a href="https://github.com/Anees040/FitPilot"><b>FitPilot</b></a></td><td>AI-assisted fitness companion built around honest food-to-exercise planning, personalised workouts, progress tracking, and an AI gym coach with machine scanning and exercise-form feedback.</td><td>Flutter &middot; Dart &middot; Riverpod &middot; SQLite &middot; Supabase &middot; ML Kit &middot; AI</td><td>&#9989; Completed</td></tr>
+<tr><td>&#127965;&#65039; <a href="https://github.com/Anees040/SportLynk"><b>SportLynk</b></a></td><td>Full-stack indoor sports venue booking platform for football and cricket with bookings, tournaments, team management, opponent matching, owner operations, and AI-assisted features. <i>(Final Year Project)</i></td><td>Flutter &middot; Node.js &middot; Express &middot; PostgreSQL &middot; AI</td><td>&#128679; In Development</td></tr>
+<tr><td>&#128218; <a href="https://github.com/Anees040/EduVerse"><b>EduVerse</b></a></td><td>Modern learning management application for students, teachers, and administrators with authentication, structured learning workflows, and real-time data.</td><td>Flutter &middot; Dart &middot; Firebase</td><td>&#9989; Completed</td></tr>
 </table>
 
-<h3>&#127807; Earlier Projects</h3>
+<h3>&#9728;&#65039; Summer 2026 Projects</h3>
 
 <table>
 <tr><th>Project</th><th>Description</th><th>Tech</th></tr>
-<tr><td>&#127782;&#65039; <a href="https://github.com/Anees040/weather-forecast-pk"><b>weather-forecast-pk</b></a></td><td>Real-time weather forecasts for cities across Pakistan.</td><td>Flutter &middot; OpenWeatherMap API</td></tr>
-<tr><td>&#9878;&#65039; <a href="https://github.com/Anees040/bmi_calculator_master"><b>BMI Calculator</b></a></td><td>Clean BMI calculator with a smooth, responsive Flutter UI.</td><td>Flutter &middot; Dart</td></tr>
+<tr><td>&#127947;&#65039; <a href="https://github.com/Anees040/FitPilot"><b>FitPilot</b></a></td><td>A full-featured fitness app that combines food logging, barcode and nutrition-label scanning, personalised calorie-burn planning, workout programs, progress tracking, and an AI gym coach.</td><td>Flutter &middot; Riverpod &middot; SQLite &middot; Supabase &middot; ML Kit &middot; AI</td></tr>
+<tr><td>&#128524; <a href="https://github.com/Anees040/sukoon"><b>Sukoon</b></a></td><td>Private, offline-first prayer companion for Pakistani Muslims with prayer-time auto-silent mode, offline prayer times, Namaz tracking, Qaza-e-Umri planning, Qibla support, and English/Urdu localization.</td><td>Flutter &middot; Dart &middot; Kotlin &middot; Android</td></tr>
+<tr><td>&#127908; <a href="https://github.com/Anees040/DevInterview"><b>DevInterview</b></a></td><td>Voice-first technical interview coach for Pakistani CS students. Users answer real software-engineering questions aloud and receive AI-scored feedback on content, structure, and English fluency.</td><td>Flutter &middot; Riverpod &middot; Node.js &middot; Express &middot; PostgreSQL &middot; Whisper &middot; Gemini</td></tr>
 </table>
 
-<h3>&#128302; Coming This Summer</h3>
+<h3>&#127919; Earlier Projects</h3>
 
 <table>
-<tr><th>Project</th><th>Idea</th><th>Tech</th></tr>
-<tr><td>&#129658; <b>HealthLens</b></td><td>Snap a lab report &rarr; AI explains it in simple language, flags abnormal values &amp; answers follow-ups via a RAG chatbot.</td><td>Flutter &middot; Node.js &middot; OCR &middot; LLM + RAG</td></tr>
-<tr><td>&#127908; <b>PrepPal</b></td><td>AI voice interview coach &mdash; answer out loud, get scored on content &amp; English fluency.</td><td>Flutter &middot; Whisper &middot; GPT &middot; Express</td></tr>
+<tr><th>Project</th><th>Description</th><th>Tech</th></tr>
+<tr><td>&#127908; <a href="https://github.com/Anees040/codealpha_FlashcardQuizApp"><b>Flashcard Quiz App</b></a></td><td>Interactive study application with deck management, flashcard CRUD, 3D card-flip study mode, local persistence, and learning progress tracking. Built during the CodeAlpha App Development Internship.</td><td>Flutter &middot; Dart &middot; Provider &middot; SharedPreferences &middot; Material 3</td></tr>
+<tr><td>&#128140; <a href="https://github.com/Anees040/codealpha_RandomQuoteGenerator"><b>Random Quote Generator</b></a></td><td>Clean responsive Flutter app that presents motivational quotes with one-tap refresh, fade transitions, a modular architecture, and a polished Material 3 interface.</td><td>Flutter &middot; Dart &middot; Material 3</td></tr>
+<tr><td>&#127782;&#65039; <a href="https://github.com/Anees040/weather-forecast-pk"><b>Weather Forecast PK</b></a></td><td>Real-time weather forecast application for cities across Pakistan.</td><td>Flutter &middot; OpenWeatherMap API</td></tr>
+<tr><td>&#9878;&#65039; <a href="https://github.com/Anees040/bmi_calculator_master"><b>BMI Calculator</b></a></td><td>Clean BMI calculator with a smooth and responsive Flutter UI.</td><td>Flutter &middot; Dart</td></tr>
 </table>
 
 <hr>
