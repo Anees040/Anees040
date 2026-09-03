@@ -92,16 +92,16 @@ I enjoy taking ideas from **problem → product → architecture → implementat
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.demolab.com/?user=Anees040&theme=tokyonight&hide_border=true" width="48%" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/stats.svg" width="48%" alt="GitHub stats" />
+  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/streak.svg" width="48%" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="42%" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/top-langs.svg" width="42%" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anees040&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="GitHub contribution activity" />
+  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/activity.svg" width="96%" alt="GitHub contribution activity" />
 </p>
 
 ---
