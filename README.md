@@ -100,10 +100,6 @@ I enjoy taking ideas from **problem → product → architecture → implementat
   <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/top-langs.svg" width="42%" alt="Top languages" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/activity.svg" width="96%" alt="GitHub contribution activity" />
-</p>
-
 ---
 
 ## 🐍 Contributions
