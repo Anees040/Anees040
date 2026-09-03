@@ -1,53 +1,61 @@
-name: Update Stats Cards
+name: Update GitHub Profile Cards
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/update-stats-cards.yml'  # runs once immediately when you add this file
-  schedule:
-    - cron: '0 */6 * * *'   # every 6 hours after that
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab anytime
+      - '.github/workflows/update-stats-cards.yml'
 
 permissions:
   contents: write
 
 jobs:
-  update-stats:
+  update-cards:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout output branch
         uses: actions/checkout@v4
         with:
           ref: output
 
-      - name: Fetch GitHub Stats card
-        run: |
-          curl -sf "https://github-stats-extended.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" -o stats.svg.new \
-            && mv stats.svg.new stats.svg \
-            || echo "Stats fetch failed — keeping previous version"
+      - name: Generate GitHub stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=Anees040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
+          path: stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fetch Top Languages card
-        run: |
-          curl -sf "https://github-stats-extended.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o top-langs.svg.new \
-            && mv top-langs.svg.new top-langs.svg \
-            || echo "Top-langs fetch failed — keeping previous version"
+      - name: Generate top languages
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
+          path: top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fetch Streak Stats card
-        run: |
-          curl -sf "https://streak-stats.demolab.com?user=Anees040&theme=tokyonight&hide_border=true" -o streak.svg.new \
-            && mv streak.svg.new streak.svg \
-            || echo "Streak fetch failed — keeping previous version"
+      - name: Generate streak
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=Anees040&theme=tokyonight&hide_border=true&disable_animations=true
+          path: streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push if changed
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: Anees040
+          options: theme=tokyo-night&hide_border=true&area=true&custom_title=GitHub%20Contribution%20Activity
+          output_path: activity.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in stats.svg top-langs.svg streak.svg; do
-            if [ -f "$f" ]; then
-              git add "$f"
-            else
-              echo "$f was not fetched this run — skipping"
-            fi
-          done
-          git diff --staged --quiet || git commit -m "Auto-update stats cards"
-          git push
+          git add stats.svg top-langs.svg streak.svg activity.svg
+          git diff --staged --quiet || git commit -m "Update GitHub profile cards"
+          git push origin output
