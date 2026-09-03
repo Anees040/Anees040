@@ -2,10 +2,10 @@
 <!--                 MUHAMMAD ANEES | PROFILE                -->
 <!-- ====================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a6b,50:14b8a6,100:38bdf8&height=200&section=header&text=Muhammad%20Anees&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Flutter%20Developer%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20AI%20Application%20Builder&descSize=17&descAlignY=53" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a6b,50:14b8a6,100:38bdf8&height=210&section=header&text=Muhammad%20Anees&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Flutter%20Developer%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20AI%20Application%20Builder&descSize=17&descAlignY=52" width="100%"/>
 
 <p align="center">
-  <a href="https://github.com/Anees040"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&width=650&lines=Flutter+%7C+Full-Stack+%7C+AI;I+build+production-minded+mobile+products;Open+to+Internships+%26+Junior+Roles" alt="Typing animation" /></a>
+  <a href="https://github.com/Anees040"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&width=680&lines=I+build+production-minded+Flutter+apps;Full-stack+mobile+%2B+backend+development;AI+features+that+solve+real+problems;Open+to+Internships+%26+Junior+Roles" alt="Typing animation" /></a>
 </p>
 
 <p align="center">
@@ -14,130 +14,112 @@
   <a href="https://github.com/Anees040"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
+<p align="center"><img src="https://komarev.com/ghpvc/?username=Anees040&label=Profile%20Views&color=14b8a6&style=flat" alt="profile views" /></p>
+
 ---
 
 ## 👋 About Me
 
-Software Engineering student at **COMSATS University Islamabad** building cross-platform products with **Flutter/Dart**, backend services, and practical AI integrations. I enjoy taking products from **problem → architecture → implementation → testing**.
+I'm a **Software Engineering student at COMSATS University Islamabad** focused on building cross-platform products with **Flutter/Dart**, backend services, and practical AI integrations.
+
+I enjoy taking ideas from **problem → product → architecture → implementation → testing**. My recent work spans fitness, education, productivity, interview preparation, native Android integration, offline-first applications, AI/voice workflows, and full-stack systems.
 
 | | |
 |---|---|
-| 🎓 **Education** | BS Software Engineering · COMSATS · **CGPA 3.29 / 4.0** · Expected Dec 2026 |
-| 📍 **Location** | Islamabad, Pakistan |
-| 📱 **Focus** | Flutter · Dart · Mobile Development |
+| 🎓 **Education** | BS Software Engineering — COMSATS University Islamabad · **CGPA 3.29 / 4.0** · Expected Dec 2026 |
+| 📍 **Based in** | Islamabad, Pakistan |
+| 📱 **Primary focus** | Flutter · Dart · Cross-platform mobile development |
 | ⚙️ **Backend** | Node.js · Express · PostgreSQL · Firebase · Supabase |
-| 🤖 **AI** | LLM APIs · OCR · Speech-to-Text · AI-powered workflows |
-| 💼 **Seeking** | Software Engineering Internships · Junior Developer Roles |
+| 🤖 **AI** | LLM APIs · OCR · Speech-to-Text · AI-assisted application features |
+| 💼 **Open to** | Software Engineering Internships · Junior Developer Roles |
 
 ---
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 🥇 FitPilot
-**AI Fitness Companion**
-
-Food logging, nutrition scanning, calorie planning, personalised workouts, progress tracking and AI gym features.
-
-`Flutter` `Riverpod` `SQLite` `Supabase` `ML Kit`
-
-**Offline-first · OCR · Barcode · AI · Testing**
-
-<a href="https://github.com/Anees040/FitPilot">View Repository →</a>
-
-</td>
-<td width="33%" valign="top">
-
-### 🧘 Sukoon
-**Offline Prayer Companion**
-
-Prayer times, Namaz tracking, Qaza planning, Qibla, Urdu/English localization and native Android automation.
-
-`Flutter` `Dart` `Kotlin` `Android`
-
-**Offline-first · Native Android · Privacy**
-
-<a href="https://github.com/Anees040/sukoon">View Repository →</a>
-
-</td>
-<td width="33%" valign="top">
-
-### 🎙️ DevInterview
-**Voice Interview Coach**
-
-Technical interview practice with voice answers and AI feedback on content, structure and English fluency.
-
-`Flutter` `Node.js` `PostgreSQL` `Whisper` `Gemini`
-
-**Voice · AI · REST API · Spaced Repetition**
-
-<a href="https://github.com/Anees040/DevInterview">View Repository →</a>
-
-</td>
-</tr>
-</table>
+| Project | What I built | Stack |
+|---|---|---|
+| 🏋️ **[FitPilot](https://github.com/Anees040/FitPilot)** | AI-assisted fitness platform with food logging, barcode/OCR scanning, calorie-burn planning, personalised workouts, progress tracking and an offline-first data layer. | Flutter · Riverpod · SQLite · Supabase · ML Kit · AI |
+| 🧘 **[Sukoon](https://github.com/Anees040/sukoon)** | Privacy-focused offline prayer companion with prayer-time calculations, Namaz/Qaza tracking, Qibla, Urdu/English localization and native Android DND automation. | Flutter · Dart · Kotlin · Android |
+| 🎙️ **[DevInterview](https://github.com/Anees040/DevInterview)** | Voice-first technical interview coach with a **Record → Transcribe → Score → Feedback** pipeline, technical drills and AI feedback on content, structure and English fluency. | Flutter · Node.js · Express · PostgreSQL · Whisper · Gemini |
+| ⚽ **[SportLynk](https://github.com/Anees040/SportLynk)** | Full-stack sports platform for Pakistan: venue discovery, escrow-backed booking, QR check-in, ELO matchmaking, tournaments, real-time chat, owner operations and four in-house ML models. | Flutter · Node.js · PostgreSQL · Python · FastAPI · scikit-learn |
 
 ---
 
 ## 🏆 Flagship & Academic Work
 
-| Project | Focus | Stack |
-|---|---|---|
-| ⚽ **SportLynk** · Final Year Project | Indoor sports booking, teams, tournaments, opponent matching & ground-owner operations | Flutter · Node.js · Express · PostgreSQL |
-| 📚 **EduVerse** | Learning management platform with authentication and structured student/teacher workflows | Flutter · Dart · Firebase |
+### 📚 [EduVerse](https://github.com/Anees040/EduVerse)
+**Enterprise-style cross-platform Learning Management System** for Students, Teachers and Admins. Includes role-based authentication, course discovery and delivery, advanced video learning, quizzes, assignments, certificates, real-time Q&A, study streaks, analytics, teacher course creation/revenue dashboards, a 13-module admin console, and AI-powered chat, homework/image analysis and course recommendations.
 
-> 🔒 **SportLynk is private and intentionally not linked.**
+**Stack:** Flutter · Dart · Firebase · Node.js · Cloudinary · Gemini · OpenRouter
 
----
+### ⚽ [SportLynk](https://github.com/Anees040/SportLynk)
+**Final Year Project.** A production-minded sports ecosystem connecting players, teams, venue owners and administrators. The system includes escrow payments, wallet/ledger flows, ELO competition, tournaments, real-time communication, QR check-in, dispute handling, RBAC, background workers and a separate FastAPI ML service with four internally trained models.
 
-## ⚡ What I Work With
-
-**Mobile:** Flutter · Dart · Riverpod · SQLite · Kotlin/Android  
-**Backend:** Node.js · Express · REST APIs · PostgreSQL · Firebase · Supabase  
-**AI:** LLM APIs · Gemini · Whisper · OCR · ML Kit  
-**Tools:** Git · GitHub · Postman · Figma · VS Code
+**Scale:** 56 mobile screens · 150+ REST endpoints · 37 database tables · 22 migrations · ~2,200 automated assertions
 
 ---
 
 ## 🔭 Product Roadmap
 
-> **Planned ideas — not presented as completed projects.**
+| Project | Direction |
+|---|---|
+| 🛍 **ShopMate AI** | AI WhatsApp sales agent for Pakistani Shopify stores — Urdu/English/Roman Urdu text & voice, product discovery, controlled discount negotiation, COD confirmation and customer re-engagement. **Planned / Next Build** |
+| 🔬 **HealthLens** | AI-assisted mobile experience that turns a photo of a medical test report into a clearer, easier-to-understand explanation for everyday users. **Planned** |
+| 🧠 **MindGym** | Learning app where AI uses Socratic questioning and progressive hints instead of immediately giving answers, helping users build problem-solving independence. **Future Concept** |
 
-| Project | Concept | Status |
-|---|---|---|
-| 🛍️ **ShopMate AI** | AI WhatsApp sales agent for Pakistani Shopify stores: Urdu/English/Roman Urdu, voice notes, controlled discounts, COD confirmation & customer revival. | **Next Build** |
-| 🔬 **HealthLens** | Photograph a medical test report and turn its information into a simple, understandable explanation for everyday users. | **Planned** |
-| 🧠 **MindGym** | AI coach that uses Socratic hints and productive struggle instead of immediately giving programming, math or logic answers. | **Future Concept** |
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,nodejs,express,postgres,python,cpp,js,git,github,vscode,figma,postman&perline=7" alt="Technology stack" />
+</p>
 
 ---
 
 ## 📚 Earlier Projects
 
-- 🎴 **[Flashcard Quiz App](https://github.com/Anees040/codealpha_FlashcardQuizApp)** — Flutter study app with decks, CRUD, 3D flip mode and local persistence.
-- 💬 **[Random Quote Generator](https://github.com/Anees040/codealpha_RandomQuoteGenerator)** — responsive Flutter app with modular structure and animated transitions.
-- 🌤️ **[Weather Forecast PK](https://github.com/Anees040/weather-forecast-pk)** — real-time weather app for cities across Pakistan.
-- ⚖️ **[BMI Calculator](https://github.com/Anees040/bmi_calculator_master)** — responsive Flutter BMI calculator.
+| Project | Highlights |
+|---|---|
+| 🎴 **[Flashcard Quiz App](https://github.com/Anees040/codealpha_FlashcardQuizApp)** | Flashcard CRUD, deck management, 3D study mode, local persistence and progress tracking · **Flutter / Provider / SharedPreferences** |
+| 💬 **[Random Quote Generator](https://github.com/Anees040/codealpha_RandomQuoteGenerator)** | Responsive UI, modular structure, animated transitions and clean Material 3 design · **Flutter / Dart** |
+| 🌤️ **[Weather Forecast PK](https://github.com/Anees040/weather-forecast-pk)** | Real-time weather application for cities across Pakistan · **Flutter / OpenWeatherMap API** |
+| ⚖️ **[BMI Calculator](https://github.com/Anees040/bmi_calculator_master)** | Responsive interactive health-calculation application · **Flutter / Dart** |
 
 ---
 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/stats.svg" width="48%" alt="GitHub stats" />
-  <img src="https://raw.githubusercontent.com/Anees040/Anees040/output/top-langs.svg" width="41%" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Anees040&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="GitHub stats" />
+  <img src="https://github-readme-streak-stats.demolab.com/?user=Anees040&theme=tokyonight&hide_border=true" width="48%" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anees040&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="GitHub activity" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anees040&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="42%" alt="Top languages" />
 </p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anees040&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="GitHub contribution activity" />
+</p>
+
+---
+
+## 🐍 Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anees040/Anees040/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anees040/Anees040/output/github-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Anees040/Anees040/output/github-snake.svg" width="100%" />
+</picture>
 
 ---
 
 <p align="center">
   <i>Building useful software, one product at a time.</i>
+  <br/><br/>
+  ⭐ If one of my projects is useful to you, consider giving it a star.
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:14b8a6,100:1e3a6b&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:14b8a6,100:1e3a6b&height=120&section=footer" width="100%"/>
