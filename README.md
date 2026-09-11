@@ -40,7 +40,7 @@ I enjoy taking ideas from **problem → product → architecture → implementat
 | Project | What I built | Stack |
 |---|---|---|
 | 🏋️ **[FitPilot](https://github.com/Anees040/FitPilot)** | AI-assisted fitness platform with food logging, barcode/OCR scanning, calorie-burn planning, personalised workouts, progress tracking and an offline-first data layer. | Flutter · Riverpod · SQLite · Supabase · ML Kit · AI |
-| 🧘 **[Sukoon](https://github.com/Anees040/sukoon)** | Privacy-focused offline prayer companion with prayer-time calculations, Namaz/Qaza tracking, Qibla, Urdu/English localization and native Android DND automation. | Flutter · Dart · Kotlin · Android |
+| 🧘 **[Sukoon](https://github.com/Anees040/sukoon)** | Privacy focused offline prayer companion with prayer-time calculations, Namaz/Qaza tracking, Qibla, Urdu/English localization and native Android DND automation. | Flutter · Dart · Kotlin · Android |
 | 🎙️ **[DevInterview](https://github.com/Anees040/DevInterview)** | Voice-first technical interview coach with a **Record → Transcribe → Score → Feedback** pipeline, technical drills and AI feedback on content, structure and English fluency. | Flutter · Node.js · Express · PostgreSQL · Whisper · Gemini |
 | ⚽ **[SportLynk](https://github.com/Anees040/SportLynk)** | Full-stack sports platform for Pakistan: venue discovery, escrow-backed booking, QR check-in, ELO matchmaking, tournaments, real-time chat, owner operations and four in-house ML models. | Flutter · Node.js · PostgreSQL · Python · FastAPI · scikit-learn |
 
