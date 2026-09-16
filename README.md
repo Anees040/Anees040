@@ -22,7 +22,7 @@
 
 I'm a **Software Engineering student at COMSATS University Islamabad** focused on building cross-platform products with **Flutter/Dart**, backend services, and practical AI integrations.
 
-I enjoy taking ideas from **problem → product → architecture → implementation → testing**. My recent work spans fitness, education, productivity, interview preparation, native Android integration, offline-first applications, AI/voice workflows, and full-stack systems.
+I enjoy taking ideas from **problem → product → architecture → implementation → testing**. My recent work spans fitness, education, productivity, interview preparation, native Android integration, offline-first applications, AI/voice workflows, and full stack systems.
 
 | | |
 |---|---|
