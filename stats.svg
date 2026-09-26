@@ -1,0 +1,22 @@
+<svg width="576" height="220" viewBox="0 0 576 220" xmlns="http://www.w3.org/2000/svg">
+<rect width="576" height="220" rx="10" fill="#1a1b27"/>
+<style>
+  .title { font: 700 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+  .value { font: 700 25px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+  .label { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+</style>
+<text x="28" y="38" class="title">GitHub Stats</text>
+<line x1="28" y1="55" x2="548" y2="55" stroke="#30334a"/>
+
+<text x="45" y="94" class="value">22</text>
+<text x="45" y="116" class="label">Public Repositories</text>
+
+<text x="310" y="94" class="value">9</text>
+<text x="310" y="116" class="label">Total Stars</text>
+
+<text x="45" y="158" class="value">1</text>
+<text x="45" y="180" class="label">Followers</text>
+
+<text x="310" y="158" class="value">4</text>
+<text x="310" y="180" class="label">Following</text>
+</svg>
