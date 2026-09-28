@@ -84,7 +84,7 @@ I enjoy taking ideas from **problem → product → architecture → implementat
 |---|---|
 | 🎴 **[Flashcard Quiz App](https://github.com/Anees040/codealpha_FlashcardQuizApp)** | Flashcard CRUD, deck management, 3D study mode, local persistence and progress tracking · **Flutter / Provider / SharedPreferences** |
 | 💬 **[Random Quote Generator](https://github.com/Anees040/codealpha_RandomQuoteGenerator)** | Responsive UI, modular structure, animated transitions and clean Material 3 design · **Flutter / Dart** |
-| 🌤️ **[Weather Forecast PK](https://github.com/Anees040/weather-forecast-pk)** | Real-time weather application for cities across Pakistan · **Flutter / OpenWeatherMap API** |
+| 🌤️ **[Weather Forecast PK](https://github.com/Anees040/weather-forecast-pk)** | Real time weather application for cities across Pakistan · **Flutter / OpenWeatherMap API** |
 | ⚖️ **[BMI Calculator](https://github.com/Anees040/bmi_calculator_master)** | Responsive interactive health calculation application · **Flutter / Dart** |
 
 ---
