@@ -56,7 +56,7 @@ I enjoy taking ideas from **problem → product → architecture → implementat
 ### ⚽ [SportLynk](https://github.com/Anees040/SportLynk)
 **Final Year Project.** A production-minded sports ecosystem connecting players, teams, venue owners and administrators. The system includes escrow payments, wallet/ledger flows, ELO competition, tournaments, real-time communication, QR check-in, dispute handling, RBAC, background workers and a separate FastAPI ML service with four internally trained models.
 
-**Scale:** 56 mobile screens · 150+ REST endpoints · 37 database tables · 22 migrations · ~2,200 automated assertions
+**Scale:** 56 mobile screens · 150+ REST endpoints · 37 database tables · ~2,200 automated assertions
 
 ---
 
